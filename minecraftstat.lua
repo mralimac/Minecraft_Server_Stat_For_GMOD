@@ -28,6 +28,6 @@ local serverport = "25565" --Define your server Port here
 end
 
 --Simply adds the command, generic ULib/ULX stuff--
-local minecraft = ulx.command(CATEGORY_NAME, "ulx minecraft", ulx.minecraft, "!minecraft", true)
+local minecraft = ulx.command(CATEGORY_NAME, "ulx minecraft", ulx.minecraft, "!mc", true)
 minecraft:defaultAccess(ULib.ACCESS_ALL)
 minecraft:help("Gets Minecraft Server Status")
