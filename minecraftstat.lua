@@ -29,6 +29,5 @@ end
 
 --Simply adds the command, generic ULib/ULX stuff--
 local minecraft = ulx.command(CATEGORY_NAME, "ulx minecraft", ulx.minecraft, "!minecraft", true)
-minecraft:addParam{ type=ULib.cmds.PlayerArg}
 minecraft:defaultAccess(ULib.ACCESS_ALL)
 minecraft:help("Gets Minecraft Server Status")
