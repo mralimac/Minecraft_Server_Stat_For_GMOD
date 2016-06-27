@@ -20,7 +20,10 @@ local serverport = "25565" --Define your server Port here
     --Assigns the playercount to the "players" value--
     local players = body.players.online
     --Outputs the player count to the user who wrote the command--
-    ply:ChatPrint("There is currently "..players.." Players on the minecraft server")
+    if players == 1 then
+    ply:ChatPrint("There is currently "..players.." player on the minecraft server")
+    else
+    ply:ChatPrint("There are currently "..players.." players on the minecraft server")
     end,
   function(error)
   end
