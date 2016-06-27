@@ -1,7 +1,7 @@
-local CATEGORY_NAME = "Generic Name"
+local CATEGORY_NAME = "Minecraft Commands"
 function ulx.minecraft(calling_ply, ply)
-local serverip = "192.99.149.167" --Define your server IP here
-local serverport = "25602" --Define your server Port here
+local serverip = "192.00.00.001" --Define your server IP here
+local serverport = "25565" --Define your server Port here
 http.Fetch("http://api.fhrnet.eu/mc/"..serverip.."/"..serverport.."/newinfo?method=json",
 function(body)
 local body = util.JSONToTable(body)
