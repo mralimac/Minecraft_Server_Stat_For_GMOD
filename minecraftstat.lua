@@ -1,5 +1,5 @@
 local CATEGORY_NAME = "Minecraft Commands"
-function ulx.minecraft(calling_ply, ply)
+function ulx.minecraft(ply)
   
   
   
