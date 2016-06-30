@@ -21,8 +21,10 @@ local serverport = "25565" --Define your server Port here
     local players = body.players.online
     --Outputs the player count to the user who wrote the command--
     if players == 1 then
+    --If there is only 1 player then the grammerical correct message is displayed to the player--
     ply:ChatPrint("There is currently "..players.." player on the minecraft server")
-    else
+  else
+    --Otherwise, "players" is displayed instead--
     ply:ChatPrint("There are currently "..players.." players on the minecraft server")
     end,
   function(error)
