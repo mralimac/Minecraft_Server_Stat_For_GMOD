@@ -1,6 +1,6 @@
 local CATEGORY_NAME = "Minecraft Commands"
-local serverip = "192.99.149.167" --Define your server IP here
-local serverport = "25602" --Define your server Port here
+local serverip = "192.00.00.01" --Define your server IP here
+local serverport = "25565" --Define your server Port here
 function ulx.minecraft(ply)
 --Where the magic happens--
 --Calls the URL to get the status of the minecraft server
